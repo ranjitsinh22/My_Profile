@@ -9,93 +9,160 @@
     <title>Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-    header{
+    *{margin: 0;
+    padding: 0;}
+    body{
+        background-color: rgb(206, 250, 250);
+    }
+    header{margin-bottom:0px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 2px solid rgb(0, 76, 255);
+        
+    padding: 7px;
+   
+    border-style: outset;
     background-color: rgb(10, 241, 249);
-   border-color: brown;
+
 }
-#sr{
-    color: rgb(255, 0, 0);
+nav{margin-left: 500px;
+    
+    background-color: rgb(59, 236, 174);
+    padding: 15px;
+    border-radius: 10px;
+ margin-right: 50px;
+ box-shadow: 10px;
+    margin: -15px;
 }
+#cn ,#pf,#gm{font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;}
+.sr{margin-left: 250px;
+padding: 5px;}
+
 #cn{
-    color: rgb(77, 105, 218);
+    color: rgb(5, 12, 12);
 }
 #pf{
-    color: rgb(63, 17, 249);
+    color: rgb(249, 17, 25);
 }
 #gm{
-    color: rgb(253, 67, 67)
+    color: rgb(60, 4, 200)
 }
-footer{
-    color: rgb(52, 6, 237)
+footer{ margin-left: 400px;
+    margin-right: 400px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #e7e9f3;
+    
+    
 }
+#ig,#tw,#sn{align-items: center;
+    margin-left: 50px;
+}
+#if{
+    background-color: #f0faf1;
+}
+#fm{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #fb{
-    color: blue;
+    color: rgb(50, 50, 254);
 }
 #ig{
     color: rgb(253, 67, 67);
 }
 #tw{
-    color: rgb(0, 119, 255);
+    color: rgb(16, 209, 209);
 }
 #sn{
     color: rgb(167, 169, 11);
+}
+.hm , .sk , .pd, .ts, .ed, .cu ,.mh{
+    
+    background-color: rgb(229, 236, 242);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-right: 4px;
+}
+.hm{color: red;}
+.sk{color: rgb(117, 6, 227);}
+.pd{color:rgb(4, 132, 158);}
+.ts{color: blue;}
+.ed{color: rgb(230, 10, 230);}
+.cu{color: black;}
+.if{border-style: solid;
+    margin-left: 170px;
+    
 }
 </style>
 
 </head>
 
-
+<!-- header -->
 
 <header id="hd">
-    <b> Name:&nbsp;<i id="pf" class="fa fa-user" aria-hidden="true">&nbsp;</i> </b> Ranjitsinh Gavali &nbsp; &nbsp;
+    <b id="pf"> Name:<i  class="fa fa-user" aria-hidden="true"></i> </b> Ranjitsinh Gavali 
 
-    <strong>Gmail: &nbsp;<i id="gm" class="fa fa-envelope" aria-hidden="true"></i></strong> Gmail:abc@gmail.com &nbsp; &nbsp;
+    <strong  id="gm">Gmail:<i class="fa fa-envelope" aria-hidden="true"></i></strong> Gmail:abc@gmail.com 
 
-    <strong>Contact No : &nbsp;<i id="cn" class="fa fa-mobile" aria-hidden="true"></i></strong> 1122334455 &nbsp;&nbsp;
-
-    <strong>Search Here </strong> &nbsp; <i id="sr" class="fa fa-search" aria-hidden="true"></i>
+    <strong  id="cn">Contact No :<i class="fa fa-mobile" aria-hidden="true"></i></strong> 1122334455 
+<input class="sr" type="text" placeholder="Search Here
+">
+ <i id="sric" class="fa fa-search" aria-hidden="true"></i>
 
 </header>
 
 <br>
+<!-- navigatie bar -->
 <nav >
-    <a href="home.html" target="myframe">Home</a>&nbsp;
-    <i class="fa fa-home" aria-hidden="true"></i>
-    &nbsp; &nbsp; &nbsp;
+    <a class="hm" class="hm" href="home.html" target="myframe">Home</a>
+    <i id="hm" class="fa fa-home" aria-hidden="true"></i>
+    
 
-    <a href="mySkills.html" target="myframe">My Skills</a>&nbsp;
+    <a class="sk" href="mySkills.html" target="myframe">My Skills</a>
     <i class="fa fa-list" aria-hidden="true"></i>
-    &nbsp; &nbsp; &nbsp;
+    
 
-    <a href="personalDetails.html" target="myframe">Personal Details</a>
-    &nbsp; &nbsp; &nbsp;
+    <a class="pd" href="personalDetails.html" target="myframe">Personal Details</a>
+    
 
-    <a href="techStack.html" target="myframe">Tech Stack</a>
-    &nbsp; &nbsp; &nbsp;
+    <a class="ts" href="techStack.html" target="myframe">Tech Stack</a>
+    
 
-    <a href="education.html" target="myframe">Education</a>&nbsp;
+    <a class="ed" href="education.html" target="myframe">Education</a>
     <i class="fa fa-university" aria-hidden="true"></i>
-    &nbsp; &nbsp; &nbsp;
+    
+    <a class="mh" href="myHobbies.html" target="myframe">My Hobby</a>
 
-    <a href="contactUs.html" target="myframe">Contact Us</a> &nbsp;
+    <a class="cu" href="contactUs.html" target="myframe">Contact Us</a>
     <i class="fa fa-phone-square" aria-hidden="true"></i>
 
 </nav>
 
 <body>
     <br>
-    <iframe width="950px" height="400opx" name="myframe" scr="home.html"></iframe>
+    <iframe class="if" width="900px" height="420px" name="myframe" scr="home.html"></iframe>
+
     <br>
     <footer>
-        <strong>Follow Me :</strong>&nbsp; &nbsp;
+        <strong id="fm">Follow Me :</strong>
        <a  href="https://www.facebook.com/"><i id="fb" class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-        &nbsp; &nbsp;&nbsp; &nbsp;
+        
         <a href="https://www.instagram.com" target="_blank"> <i id="ig" class="fa fa-instagram fa-2x"
                 aria-hidden="true"></i></a>
-        &nbsp; &nbsp;&nbsp; &nbsp;
+     
         <a href="https://www.snapchat.com" target="_blank"><i id="sn" class="fa fa-snapchat-square fa-2x"
                 aria-hidden="true"></i></a>
-        &nbsp; &nbsp;&nbsp; &nbsp;
+        
         <a href="https://twitter.com" target="_blank"> <i id="tw" class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
     </footer>
 </body>
